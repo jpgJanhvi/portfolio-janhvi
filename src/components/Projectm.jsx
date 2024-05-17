@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const Projectm = () => {
   return (
     <>
-      <section className="bg-gray-2 pb-10 pt-20 dark:bg-dark lg:pb-20 lg:pt-[120px]">
+      <section id="projects" className="bg-gray-2 pb-10 pt-20 dark:bg-dark lg:pb-20 lg:pt-[120px]">
         <div className="container">
           <div className="mb-8 text-center">
             <motion.h2 
