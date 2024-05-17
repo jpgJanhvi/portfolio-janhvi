@@ -12,11 +12,16 @@ const Navbar = () => {
     </div>
 
     <div className="m-8 flex items-center justify-center gap-4 text-2xl"> 
-      <FaLinkedin/>
+      <FaLinkedin  />
       <FaGithub/>
       <FaSquareXTwitter/>
       <FaInstagram/>
+      <div>
+        <a href="https://www.linkedin.com/feed/"></a>
+        <FaLinkedin  />
+      </div>
     </div>
+
   </nav>
 
 }

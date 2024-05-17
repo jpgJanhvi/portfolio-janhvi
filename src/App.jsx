@@ -1,10 +1,11 @@
-import Navbar from './components/Navbar'
+import Navbarm from './components/Navbarm'
 import Hero from './components/Hero'
 import About from './components/About'
 import Technologies from './components/Technologies';
 import Experience from './components/Experience';
-import Projects from './components/Projects';
 import Contact from './components/Contact';
+import Projectm from './components/Projectm';
+
 
 function App() {
   return (
@@ -15,13 +16,14 @@ function App() {
         
 
       <div className='container mx-auto px-8'>
-        <Navbar/>
+        <Navbarm/>
         <Hero/>
-        <About/>
         <Technologies/>
+        <Projectm/>
         <Experience/>
-        <Projects/>
+        <About/>
         <Contact/>
+
       </div>
     </div>
   );
